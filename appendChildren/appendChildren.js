@@ -1,4 +1,3 @@
-
 /*
 
 loop
@@ -32,11 +31,11 @@ The code below should do the job, but for some reason it goes into an infinite l
 function appendChildren(decorateDivFunction) {
     var allDivs = Array.from(document.getElementsByTagName("div"));
     for (var i = 0; i < allDivs.length; i++) {
-      var newDiv = document.createElement("div");
-      decorateDivFunction(newDiv);
-      allDivs[i].appendChild(newDiv);
+        var newDiv = document.createElement("div");
+        decorateDivFunction(newDiv);
+        allDivs[i].appendChild(newDiv);
     }
-  }
+}
 
 // Example case. 
 document.body.innerHTML = `
