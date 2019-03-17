@@ -27,3 +27,7 @@ console.log("filter", filterArray);
 const reduceArray = array.reduce((accumulator, num) => { return accumulator + num }, 0);
 
 console.log("reduce", reduceArray);
+
+//list array with for of
+
+for (item of array) { console.log(item) }
