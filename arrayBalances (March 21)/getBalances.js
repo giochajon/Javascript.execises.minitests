@@ -125,7 +125,7 @@ function getTotAges(arreglo) {
 }
 
 function getAvgAges(arreglo) {
-    return  getTotAges(arreglo) / arreglo.length
+    return getTotAges(arreglo) / arreglo.length
 }
 
 

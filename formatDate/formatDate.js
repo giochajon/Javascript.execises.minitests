@@ -1,4 +1,3 @@
-
 /*
 
 
@@ -12,13 +11,13 @@ For example, it should convert user entered date "12/31/2014" to "20141231" suit
 
 
 function AddLeadingZero(num) {
-  return (num < 10 ? '0' : '') + num;
+    return (num < 10 ? '0' : '') + num;
 }
 
 function formatDate(userDate) {
-  // format from M/D/YYYY to YYYYMMDD
-  var [month, day, year] = userDate.split('/');
-  return year + AddLeadingZero(month) + AddLeadingZero(day); 
+    // format from M/D/YYYY to YYYYMMDD
+    var [month, day, year] = userDate.split('/');
+    return year + AddLeadingZero(month) + AddLeadingZero(day);
 }
 
 

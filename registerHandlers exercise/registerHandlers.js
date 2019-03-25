@@ -31,8 +31,8 @@ function registerHandlers() {
         links[i].onclick = generateHandler(i);
     }
 
-    function generateHandler (index) {
-        return function () {
+    function generateHandler(index) {
+        return function() {
             alert(index);
             return false;
         }

@@ -1,4 +1,3 @@
-
 /*
 Image Gallery Excercise
 
@@ -28,14 +27,14 @@ For example, after the first image has been removed from the gallery above, it's
 
 
 function setup() {
- 
-  var els = document.getElementsByClassName('remove');
 
-for (var i = 0; i < els.length; i++) {
-  els[i].addEventListener('click', function () {
-    this.parentNode.remove();
-  });
- }
+    var els = document.getElementsByClassName('remove');
+
+    for (var i = 0; i < els.length; i++) {
+        els[i].addEventListener('click', function() {
+            this.parentNode.remove();
+        });
+    }
 
 }
 
