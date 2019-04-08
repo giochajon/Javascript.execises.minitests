@@ -7,21 +7,21 @@ console.log("Make me an Email");
 // ---- put function here ----
 
 function makeEmail(firstName, lastName) {
-	const c = firstName + "." + lastName + "@evolveu.ca";
-	return c;
+    const c = firstName + "." + lastName + "@evolveu.ca";
+    return c;
 }
 
 const larryEmail = makeEmail("larry", "shumlich");
 const shouldBeLarryEmail = "larry.shumlich@evolveu.ca";
 
 if (larryEmail != shouldBeLarryEmail) {
-	console.log(
-		"***** We have an error here *****",
-		larryEmail,
-		" is not = ",
-		shouldBeLarryEmail,
-		" and it should be."
-	);
+    console.log(
+        "***** We have an error here *****",
+        larryEmail,
+        " is not = ",
+        shouldBeLarryEmail,
+        " and it should be."
+    );
 }
 
 console.log("Larry:", larryEmail);

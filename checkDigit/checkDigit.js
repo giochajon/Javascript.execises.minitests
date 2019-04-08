@@ -14,22 +14,21 @@ For example, for the membership ID "55555" the sum of all digits is 25. Because 
  * @return {number} The check digit.
  */
 function createCheckDigit(membershipId) {
-  // Write the code that goes here.
+    // Write the code that goes here.
 
-  let g=0;
-  let e ="";
-  let f = 0;
-  for (i=0; i < membershipId.length; i++  )
-  {
+    let g = 0;
+    let e = "";
+    let f = 0;
+    for (i = 0; i < membershipId.length; i++) {
 
-	g+=Number(membershipId[i]);
-  
+        g += Number(membershipId[i]);
 
 
-  }
-  e=g+e;
-  f = Number(e[0]) + Number(e[1]) 
-  return f;
+
+    }
+    e = g + e;
+    f = Number(e[0]) + Number(e[1])
+    return f;
 }
 
 console.log(createCheckDigit("55555"));
