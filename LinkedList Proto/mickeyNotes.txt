@@ -1,0 +1,16 @@
+a = new Node("Gio",10);
+x = new LinkedList(a);
+b = new Node ("Alex",20);
+x.insertNode(b);
+c = new Node ("Mike",5);
+x.insertNode(c);
+d = new Node ("John",2);
+x.insertNode(d);
+e = new Node ("Peter",1);
+x.insertNodeBeginning(e)
+f = new Node ("Frank",10);
+x.insertNode(f)
+
+
+
+
