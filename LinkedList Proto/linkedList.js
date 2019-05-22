@@ -73,8 +73,8 @@ class LinkedList {
 
 
     DeleteNode = () => {
-    	this.totalAmount -= this.current.ammount;
-    	this.numberOfNodes--;
+        this.totalAmount -= this.current.ammount;
+        this.numberOfNodes--;
         this.current.previousNode.forwardNode = this.current.forwardNode
         this.current.forwardNode.previousNode = this.current.previousNode
         this.movePrev()
